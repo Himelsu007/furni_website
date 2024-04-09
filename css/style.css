@@ -1,0 +1,26 @@
+@charset "utf-8"; 
+
+
+* { margin:0px; padding:0px; box-sizing:border-box; font-family:var(--font-01); }
+
+:root  {  
+            --orange:#FD853A;
+            --bege:#F5EDEA;
+            --light-blue:#037486;
+            --dark-gray:#d1d2d6;
+            --coach-container:#037587;;
+            --font-01:'Inter';
+            --font-02:'Playfair Display';
+            --font-03:'DM Sans';
+            --m: 4rem;
+}
+
+header { width: 1360px; height:100px; border:2px solid rgb(48, 48, 48); background-color:#171717; margin:auto; border-radius:50px; margin-top:40px; display:flex; align-items:center; justify-content:center;}
+nav { border:2px solid white; width:1350px; height:80px; border-radius:50px; display:flex; align-items:center; justify-content:space-between; }
+
+.nav_item { border:2px solid orange; height:66px; width:158px; display:flex; align-items:center; justify-content:center;}
+.nav_item:nth-child(1) { background-color:var(--orange); border-radius:60px; }
+#nav_logo { width:300px; height:66px; border:2px solid orange; display:flex; align-items:center; justify-content:center; }
+
+#section_01 { display:flex; align-items:center; justify-content:center; border:1px solid red; }
+#section_01 > article { border:1px solid red; height:846px; width:1460px; }
