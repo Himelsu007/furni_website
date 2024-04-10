@@ -1,21 +1,11 @@
-@charset "utf-8"; 
-
-
-* { margin:0px; padding:0px; box-sizing:border-box; font-family:var(--font-01); }
-
-:root  {  
-            --orange:#FD853A;
-            --bege:#F5EDEA;
-}
-/* Add the local repository to the fonts */
 @font-face {
     font-family: 'Lufga';
-    src: url('/asstes/fonts/Lufga-Medium.eot');
-    src: local('Lufga Medium'), local('lufga-Medium'),
-        url('/asstes/fonts/Lufga-Medium.eot') format('embedded-opentype'),
-        url('/asstes/fonts/Lufga-Medium.woff2') format('woff2'),
-        url('/asstes/fonts/Lufga-Medium.woff') format('woff'),
-        url('/asstes/fonts/Lufga-Medium.ttf') format('truetype');
+    src: url('Lufga-Medium.eot');
+    src: local('Lufga Medium'), local('Lufga-Medium'),
+        url('Lufga-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Lufga-Medium.woff2') format('woff2'),
+        url('Lufga-Medium.woff') format('woff'),
+        url('Lufga-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -224,25 +214,3 @@
     font-style: normal;
 }
 
-
-header { width: 1360px; height:100px; border:2px solid rgb(48, 48, 48); background-color:#171717; margin:auto; border-radius:50px; margin-top:40px; display:flex; align-items:center; justify-content:center;}
-nav { border:2px solid white; width:1350px; height:80px; border-radius:50px; display:flex; align-items:center; justify-content:space-between; }
-a { text-decoration:none; color:white; }
-.nav_item { border:2px solid orange; height:66px; width:158px; display:flex; align-items:center; justify-content:center;}
-.nav_item:nth-child(1) { background-color:var(--orange); border-radius:60px; }
-#nav_logo { width:300px; height:66px; border:2px solid orange; display:flex; align-items:center; justify-content:center; }
-
-#section_01 { display:flex; align-items:center; justify-content:center; border:1px solid red; flex-direction:column; width:1460px; margin:auto; margin-top:20px;} 
-#section_01 > article:nth-child(1) { border:1px solid black; height:266px; width:913px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px;}
-#hello_mini_box { border:1px solid black; width:127.49px; height:64px; background-image:url('../asstes/images/hello_mini_box.png'); background-repeat:no-repeat; background-size:cover; }
-#mini_intro_box { border:1px solid black; height:189px; width:913px; display:flex; justify-content:center; align-items:center; }
-#mini_intro_box > h1 { font-size:95.57px; text-align:center; }
-
-#section_01 > article:nth-child(2) { border:1px solid black; height:140px; width:1460px;  display:flex; justify-content:space-between; align-items:center;}
-#section_01_testimonial{ border:1px solid black; height:138px; width:328px; display:flex; flex-direction:column; justify-content:space-between;}
-#section_01_stars_container { border:1px solid black; height:125px; width:169px; display:flex; flex-direction:column; justify-content:space-between; align-items:flex-end;}
-#section_01_stars_container > h2 { font-size:46px; }
-#section_01_stars_container > h3 {  }
-
-
-#section_01 > article:nth-child(3) { border:1px solid #e205ff; height:618px; width:952.4px; background-image:url('../asstes/images/banner_home.png'); background-repeat:no-repeat; background-size:cover;}
