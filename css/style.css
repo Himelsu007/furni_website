@@ -1,6 +1,5 @@
 @charset "utf-8"; 
 
-
 * { margin:0px; padding:0px; box-sizing:border-box; font-family:var(--font-01); }
 
 :root  {  
@@ -245,4 +244,15 @@ a { text-decoration:none; color:white; }
 #section_01_stars_container > h3 {  }
 
 
-#section_01 > article:nth-child(3) { border:1px solid #e205ff; height:618px; width:952.4px; background-image:url('../asstes/images/banner_home.png'); background-repeat:no-repeat; background-size:cover;}
+#section_01 > article:nth-child(3) { 
+    border:1px solid #e205ff; height:618px; width:952.4px; background-image:url('../asstes/images/banner_home.png'); background-repeat:no-repeat; background-size:cover; 
+    display:flex; align-items:center; justify-content:center; 
+}
+
+#home_cta_container { 
+    display:flex; align-items:center; justify-content:space-around; border:2px solid #D4D4D4; width:367px; height:82px; border-radius:50px; position:relative; top:200px; 
+    background: rgba(208, 213, 221, 0.15); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(7.6px); -webkit-backdrop-filter: blur(7.6px);
+}
+
+#portfolio_button { border:1px solid #D0D5DD; width:208px; height:62px; border-radius:60px; background-color:var(--orange); display:flex; align-items:center; justify-content:center; gap:12px;}
+#hire_me_container { border:1px solid red; height:54px; width:129px; display:flex; align-items:center; justify-content:center;}
