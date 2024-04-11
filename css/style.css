@@ -5,6 +5,7 @@
 :root  {  
             --orange:#FD853A;
             --bege:#F5EDEA;
+            --gray:#F2F4F7;
 }
 /* Add the local repository to the fonts */
 @font-face {
@@ -155,10 +156,10 @@
     font-family: 'Lufga';
     src: url('Lufga-MediumItalic.eot');
     src: local('Lufga Medium Italic'), local('Lufga-MediumItalic'),
-        url('Lufga-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('Lufga-MediumItalic.woff2') format('woff2'),
-        url('Lufga-MediumItalic.woff') format('woff'),
-        url('Lufga-MediumItalic.ttf') format('truetype');
+    url('Lufga-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('Lufga-MediumItalic.woff2') format('woff2'),
+    url('Lufga-MediumItalic.woff') format('woff'),
+    url('Lufga-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
@@ -167,10 +168,10 @@
     font-family: 'Lufga';
     src: url('Lufga-Italic.eot');
     src: local('Lufga Italic'), local('Lufga-Italic'),
-        url('Lufga-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Lufga-Italic.woff2') format('woff2'),
-        url('Lufga-Italic.woff') format('woff'),
-        url('Lufga-Italic.ttf') format('truetype');
+    url('Lufga-Italic.eot?#iefix') format('embedded-opentype'),
+    url('Lufga-Italic.woff2') format('woff2'),
+    url('Lufga-Italic.woff') format('woff'),
+    url('Lufga-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
@@ -179,10 +180,10 @@
     font-family: 'Lufga';
     src: url('Lufga-SemiBold.eot');
     src: local('Lufga SemiBold'), local('Lufga-SemiBold'),
-        url('Lufga-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Lufga-SemiBold.woff2') format('woff2'),
-        url('Lufga-SemiBold.woff') format('woff'),
-        url('Lufga-SemiBold.ttf') format('truetype');
+    url('Lufga-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('Lufga-SemiBold.woff2') format('woff2'),
+    url('Lufga-SemiBold.woff') format('woff'),
+    url('Lufga-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -191,10 +192,10 @@
     font-family: 'Lufga';
     src: url('Lufga-SemiBoldItalic.eot');
     src: local('Lufga SemiBold Italic'), local('Lufga-SemiBoldItalic'),
-        url('Lufga-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Lufga-SemiBoldItalic.woff2') format('woff2'),
-        url('Lufga-SemiBoldItalic.woff') format('woff'),
-        url('Lufga-SemiBoldItalic.ttf') format('truetype');
+    url('Lufga-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('Lufga-SemiBoldItalic.woff2') format('woff2'),
+    url('Lufga-SemiBoldItalic.woff') format('woff'),
+    url('Lufga-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
@@ -203,10 +204,10 @@
     font-family: 'Lufga';
     src: url('Lufga-ThinItalic.eot');
     src: local('Lufga Thin Italic'), local('Lufga-ThinItalic'),
-        url('Lufga-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('Lufga-ThinItalic.woff2') format('woff2'),
-        url('Lufga-ThinItalic.woff') format('woff'),
-        url('Lufga-ThinItalic.ttf') format('truetype');
+    url('Lufga-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('Lufga-ThinItalic.woff2') format('woff2'),
+    url('Lufga-ThinItalic.woff') format('woff'),
+    url('Lufga-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
 }
@@ -215,10 +216,10 @@
     font-family: 'Lufga';
     src: url('Lufga-Thin.eot');
     src: local('Lufga Thin'), local('Lufga-Thin'),
-        url('Lufga-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Lufga-Thin.woff2') format('woff2'),
-        url('Lufga-Thin.woff') format('woff'),
-        url('Lufga-Thin.ttf') format('truetype');
+    url('Lufga-Thin.eot?#iefix') format('embedded-opentype'),
+    url('Lufga-Thin.woff2') format('woff2'),
+    url('Lufga-Thin.woff') format('woff'),
+    url('Lufga-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
@@ -227,11 +228,12 @@
 header { width: 1360px; height:100px; border:2px solid rgb(48, 48, 48); background-color:#171717; margin:auto; border-radius:50px; margin-top:40px; display:flex; align-items:center; justify-content:center;}
 nav { border:2px solid white; width:1350px; height:80px; border-radius:50px; display:flex; align-items:center; justify-content:space-between; }
 a { text-decoration:none; color:white; }
-.nav_item { border:2px solid orange; height:66px; width:158px; display:flex; align-items:center; justify-content:center;}
+.nav_item { border:2px solid orange; height:66px; width:158px; display:flex; align-items:center; justify-content:center; }
 .nav_item:nth-child(1) { background-color:var(--orange); border-radius:60px; }
 #nav_logo { width:300px; height:66px; border:2px solid orange; display:flex; align-items:center; justify-content:center; }
 
-#section_01 { display:flex; align-items:center; justify-content:center; border:1px solid red; flex-direction:column; width:1460px; margin:auto; margin-top:20px;} 
+/* Section 01 */
+#section_01 { display:flex; align-items:center; justify-content:center; border:1px solid red; flex-direction:column; width:90vw; margin:auto; margin-top:20px;} 
 #section_01 > article:nth-child(1) { border:1px solid black; height:266px; width:913px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px;}
 #hello_mini_box { border:1px solid black; width:127.49px; height:64px; background-image:url('../asstes/images/hello_mini_box.png'); background-repeat:no-repeat; background-size:cover; }
 #mini_intro_box { border:1px solid black; height:189px; width:913px; display:flex; justify-content:center; align-items:center; }
@@ -243,16 +245,41 @@ a { text-decoration:none; color:white; }
 #section_01_stars_container > h2 { font-size:46px; }
 #section_01_stars_container > h3 {  }
 
-
 #section_01 > article:nth-child(3) { 
-    border:1px solid #e205ff; height:618px; width:952.4px; background-image:url('../asstes/images/banner_home.png'); background-repeat:no-repeat; background-size:cover; 
-    display:flex; align-items:center; justify-content:center; 
+    border:1px solid #e205ff; min-height:700px; min-width:964.4px; background-image:url('../asstes/images/banner_home.png'); 
+    display:flex; align-items:center; justify-content:center; background-size:cover; background-repeat:no-repeat; 
 }
-
+#section_01 > article:nth-child(3):hover {  border:1px solid #e205ff; background-image:url('../asstes/images/banner_home_post_effect.png');}
 #home_cta_container { 
     display:flex; align-items:center; justify-content:space-around; border:2px solid #D4D4D4; width:367px; height:82px; border-radius:50px; position:relative; top:200px; 
     background: rgba(208, 213, 221, 0.15); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(7.6px); -webkit-backdrop-filter: blur(7.6px);
 }
 
 #portfolio_button { border:1px solid #D0D5DD; width:208px; height:62px; border-radius:60px; background-color:var(--orange); display:flex; align-items:center; justify-content:center; gap:12px;}
-#hire_me_container { border:1px solid red; height:54px; width:129px; display:flex; align-items:center; justify-content:center;}
+#hire_me_container { border:1px solid red; height:54px; width:129px; display:flex; align-items:center; justify-content:center; }
+
+/* Section 02 */
+
+#section_02 { 
+    display:flex; align-items:center; justify-content:center; border:1px solid red; flex-direction:column; border-radius:50px; margin:auto; height:878px; width:100vw; 
+    background-size:cover; background-repeat:no-repeat; background-image: url('../asstes/images/section_02_banner.png');
+} 
+
+/* Section 03 */
+#section_03 { border: 1px solid red; display:flex; align-items:center; justify-content:center; flex-direction:column; margin-top:20px; padding:20px; }
+#section_03 > article { height:828px; border:1px solid black; width:95%; display:flex; align-items:center; justify-content: space-between; flex-direction:column; }
+#section_03_container_A { border:1px solid black; height:234px; width:1298px; display:flex; align-items:center; justify-content:center; }
+#section_03_container_B { width:1298px; height:438px; border:1px solid red; display:flex; align-items:flex-start; justify-content:space-between; }
+
+#work_experience_box_A { width:495px; height:438px; border:1px solid black; display:flex; flex-direction:column; align-items:flex-start; justify-content:space-between;}
+#work_experience_box_B { width:48px; height:400px; border:1px solid black;  }
+#work_experience_box_C { width:444px; height:400px; border:1px solid black; display:flex; flex-direction:column; align-items:flex-start; justify-content:space-between;}
+
+.work_experience_place_container { border: 1px solid black; height:78px; width:495px;  display:flex; flex-direction:column; align-items:flex-start; justify-content:space-between; }
+.work_experience_place_container_02 { border: 1px solid black; height:132px; width:444px;  display:flex; flex-direction:column; align-items:flex-start; justify-content:space-between; }
+
+/* Section 04 */
+#section_04 { border: 1px solid red; display:flex; align-items:center; justify-content:center; flex-direction:column; margin-top:20px; padding:20px; height:806px;  background-color:var(--gray);}
+#section_04 > article { height:600px; border:1px solid black; width:95%; display:flex; align-items:center; justify-content: space-between; flex-direction:column; }
+
+#section_04_box_A { border:1px solid black; height:600px; width:603px; }
