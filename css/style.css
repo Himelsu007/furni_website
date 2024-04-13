@@ -233,7 +233,7 @@ a { text-decoration:none; color:white; }
 #nav_logo { width:300px; height:66px; border:2px solid orange; display:flex; align-items:center; justify-content:center; }
 
 /* Section 01 */
-#section_01 { display:flex; align-items:center; justify-content:center; border:1px solid red; flex-direction:column; width:90vw; margin:auto; margin-top:20px;} 
+#section_01 { display:flex; align-items:center; justify-content:center; border:1px solid red; flex-direction:column; width:90vw; margin:auto; margin-top:40px;} 
 #section_01 > article:nth-child(1) { border:1px solid black; height:266px; width:913px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:10px;}
 #hello_mini_box { border:1px solid black; width:127.49px; height:64px; background-image:url('../asstes/images/hello_mini_box.png'); background-repeat:no-repeat; background-size:cover; }
 #mini_intro_box { border:1px solid black; height:189px; width:913px; display:flex; justify-content:center; align-items:center; }
