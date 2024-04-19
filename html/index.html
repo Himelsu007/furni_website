@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/swiper.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title> HOME - JCREA </title>
-</head>
+</head>   
+
 <body>
+    <div id="splash-container">
+        <div id="logo-container">
+            <img src="/asstes/icons/logo_big.svg" alt="Logo" id="logo" style="scale:1.6;">
+        </div>
+    </div>
     <header>
         <nav>
             <div class="nav_item"> <a href="#"> Home </a> </div>
@@ -21,12 +26,11 @@
             <div class="nav_item"> <a href="#"> Contact</a>  </div>
         </nav>
     </header>
-
     <section id="section_01">
         <article>
             <div id="hello_mini_box"> </div>
             <div id="mini_intro_box"> <h1> I'm <span style="color:var(--orange);"> Jenny </span>, <br> Product Designer </h1> </div>
-            <img src="../asstes/icons/mini_intro_vector.svg" style="position:absolute; top:410px; left:440px;">
+            <img id="puta" src="../asstes/icons/mini_intro_vector.svg">
         </article>
 
         <article>
@@ -230,11 +234,73 @@
         </article>
 
         <article>
+            <div class="blog_post_items_container"> 
+                <div class="blog_post_item_A1" style=" background-image:url('../asstes/images/blog_post_1.svg');"> 
+                    <div class="blog_button_container"> <button class="blog_post_button"> <img src="../asstes/icons/up_right_arrow.svg" alt="up_right_arrow" style="width:72px; height:72px;"> </button> </div>
+                </div>
+                <div class="blog_post_item_A2"> <span> UI/ UX Design </span> </div>
+                <div class="blog_post_item_A3"> 
+                    <div class="blog_name_container"> <img src="../asstes/icons/orange_eclipse.svg" alt="orange_dot"> <dt> Himelsu Encoge </dt> </div>
+                    <div class="blog_date_container"> <img src="../asstes/icons/orange_eclipse.svg" alt="orange_dot"> <span> 21 Dec, 2023 </span> </div>
+                </div>
+                <div class="blog_post_item_A4"> <span> Design Unraveled: Behind <br> the Scenes of UI/UX Magic </span> </div>
+            </div>
 
+            <div class="blog_post_items_container"> 
+                <div class="blog_post_item_A1" style=" background-image:url('../asstes/images/blog_post_2.svg');"> 
+                    <div class="blog_button_container"> <button class="blog_post_button"> <img src="../asstes/icons/up_right_arrow.svg" alt="up_right_arrow" style="width:72px; height:72px;"> </button> </div>
+                </div>
+                <div class="blog_post_item_A2"> <span> Web Design </span> </div>
+                <div class="blog_post_item_A3"> 
+                    <div class="blog_name_container"> <img src="../asstes/icons/orange_eclipse.svg" alt="orange_dot"> <dt> Himelsu Encoge </dt> </div>
+                    <div class="blog_date_container"> <img src="../asstes/icons/orange_eclipse.svg" alt="orange_dot"> <span> 09 Oct, 2023 </span> </div>
+                </div>
+                <div class="blog_post_item_A4"> <span> Sugee: Loan Management <br> System for Rural Sector. </span> </div>
+            </div>
+
+            <div class="blog_post_items_container"> 
+                <div class="blog_post_item_A1" style=" background-image:url('../asstes/images/blog_post_3.png');"> 
+                    <div class="blog_button_container"> <button class="blog_post_button"> <img src="../asstes/icons/up_right_arrow.svg" alt="up_right_arrow" style="width:72px; height:72px;"> </button> </div>
+                </div>
+                <div class="blog_post_item_A2"> <span> App Design </span> </div>
+                <div class="blog_post_item_A3"> 
+                    <div class="blog_name_container"> <img src="../asstes/icons/orange_eclipse.svg" alt="orange_dot"> <dt> Himelsu Encoge </dt> </div>
+                    <div class="blog_date_container"> <img src="../asstes/icons/orange_eclipse.svg" alt="orange_dot"> <span> 12 Aug, 2023 </span> </div>
+                </div>
+                <div class="blog_post_item_A4"> <span> Cinetrade: Innovative way <br> to invest in Digital Media </span> </div>
+            </div>
         </article>
     </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="../js/main.js"></script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var logo = document.getElementById("logo");
+    setTimeout(function() {
+        logo.style.transform = "scale(1.5)";
+        setTimeout(function() {
+            logo.classList.add("vibrate");
+            setTimeout(function() {
+                logo.style.display = "none";
+                document.getElementById("splash-container").style.display = "none";
+                document.body.style.overflow = "auto"; 
+            }, 800);
+        }, 800);
+    }, 1200);
+});
+</script>
+
+<script>
+window.addEventListener("DOMContentLoaded", function() {
+    var puta = document.getElementById("puta");
+    puta.style.display = "none";
+    
+    setTimeout(function() {
+        puta.style.display = "block"; 
+    }, 3000); 
+});
+</script>
+    
 </html>
